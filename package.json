@@ -9,8 +9,7 @@
     "productName": "electron-react-app",
     "copyright": "Copyright © 2020 Neil T",
     "files": [
-      "build/**/*",
-      "node_modules/**/*"
+      "build/**/*"
     ],
     "directories": {
       "buildResources": "assets"
@@ -37,7 +36,9 @@
     "electron-dev": "concurrently \"BROWSER=none npm start\" \"wait-on http://localhost:3000 && electron .\"",
     "postinstall": "electron-builder",
     "preelectron-pack": "npm run build",
-    "electron-pack": "electron-builder -l "
+    "electron-pack-linux": "electron-builder -l ",
+    "electron-pack-max": "electron-builder -m ",
+    "electron-pack-windows": "electron-builder -w "
   },
   "eslintConfig": {
     "extends": "react-app"
