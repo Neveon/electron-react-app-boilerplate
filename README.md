@@ -1,4 +1,4 @@
-This project uses [Neveon/electron-react-app-boilerplate](https://github.com/Neveon/electron-react-app-boilerplate)
+This project was created with [Neveon/electron-react-app-boilerplate](https://github.com/Neveon/electron-react-app-boilerplate)
 
 # Available Scripts
 
