@@ -1,6 +1,4 @@
-This project followed [this guide](https://dev.to/tesh254/how-to-build-electron-apps-with-react-36b)
-
-After cloning this repo, make sure to `npm install` the dependencies.
+This project uses [Neveon/electron-react-app-boilerplate](https://github.com/Neveon/electron-react-app-boilerplate)
 
 # Available Scripts
 
